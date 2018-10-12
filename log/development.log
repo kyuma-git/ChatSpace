@@ -697,3 +697,97 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 385ms (Views: 381.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:41:43 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (51.9ms)
+Completed 500 Internal Server Error in 386ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358087270580'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:42:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 255ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358103464220'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:46:46 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (35.7ms)
+Completed 500 Internal Server Error in 325ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358095431940'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:47:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 187ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358098519220'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:48:31 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 382ms (Views: 376.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:50:41 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 358ms (Views: 353.1ms)
+
+

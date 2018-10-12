@@ -11,14 +11,14 @@
     position: relative;
 
     &--new-group {
-      color: whitesmoke;
+      color: $whitesmoke;
       margin-left: 90px;
       position: relative;
       display: inline-block;
     }
 
     &--edit-user {
-      color: whitesmoke;
+      color: $whitesmoke;
       position: relative;
       display: inline-block;
     }
@@ -33,7 +33,7 @@
     bottom: 0;
 
       &--name {
-        color: white;
+        color: $white;
         font-size: 20px;
         font-weight: bold;
         margin: 0 20px;
@@ -46,14 +46,14 @@
   &__groups {
     height: 85%;
     width: 100%;
-    background-color: #253141;
+    background-color: $navy;
     
     .chat-side__groups-list {
       height: 100%;
       
       .chat-side__group {
         padding: 20px;
-        color: white;
+        color: $white;
 
         .chat-side__group-name {
           font-size: 15px;
@@ -75,30 +75,30 @@
 
   &__header {
     height: 15%;
-    border: 1px solid #eee;
+    border: 1px solid $white;
 
     &--group {
       margin: 0 40px;
 
       .chat-main__header--group-name {
-        color: #333;
+        color: $black;
         font-size: 20px;
         margin: 35px 0 15px;
         float: left;
       }
 
       .chat-main__header--group-edit-btn {
-        color: #38AEF0;
+        color: $lightblue;
         font-size: 15px;
         padding: 12.5px 20px;
         margin: 28px 20px 0;
-        border: 1px solid #38AEF0;
+        border: 1px solid $lightblue;
         float: right;
       }
     }
 
     .chat-main__header-members {
-      color: #999;
+      color: $gray;
       font-size: 12px;
       margin: 0 40px;
     }
@@ -112,7 +112,7 @@
   &__footer {
     height: 90px;
     width: 83%;
-    background-color: #B8C3C7;
+    background-color: $lightgray;
     position: absolute;
     bottom: 0;
 
@@ -152,11 +152,11 @@
   }
 
   .submit {
-    color: #fff;
+    color: $white;
     width: 100px;
     height: 50px;
     text-align: center;
-    background-color: #38AEF0;
+    background-color: $lightblue;
     margin: 20px 0;
     position: absolute;
     top: 0;
