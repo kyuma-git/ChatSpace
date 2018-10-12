@@ -1,0 +1,807 @@
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:26:44 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (30.2ms)
+Completed 500 Internal Server Error in 560ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:3
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303523164980'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:27:12 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (36.5ms)
+Completed 200 OK in 271ms (Views: 265.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:31:19 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 126ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:3
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303525781900'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:34:42 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (42.4ms)
+Completed 500 Internal Server Error in 138ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:3
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303505135560'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:35:40 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (18.9ms)
+Completed 500 Internal Server Error in 78ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:3
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303543034960'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:36:17 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (43.2ms)
+Completed 500 Internal Server Error in 128ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:3
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303495364420'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:36:35 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 78ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:3
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303525367820'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:47:13 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (54.1ms)
+Completed 500 Internal Server Error in 226ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2366452680272374938_70303495558900'
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:51:54 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 209ms (Views: 198.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 19:55:46 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (25.6ms)
+Completed 200 OK in 998ms (Views: 645.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:00:07 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (25.8ms)
+Completed 500 Internal Server Error in 255ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: ./message.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/fonts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:4
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358089708480'
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:00:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (18.6ms)
+Completed 200 OK in 433ms (Views: 429.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:00:39 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (25.3ms)
+Completed 200 OK in 362ms (Views: 357.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:03:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 418ms (Views: 414.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:07:49 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (38.2ms)
+Completed 200 OK in 132ms (Views: 116.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:12:39 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (20.4ms)
+Completed 200 OK in 499ms (Views: 481.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:30:24 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (43.9ms)
+Completed 200 OK in 550ms (Views: 534.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:32:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 30ms
+
+
+  
+ActionView::Template::Error (Unbalanced brackets.):
+    1: !!!
+    2: %html
+    3:   %head
+    4:     %meta{content: "text/html; charset=UTF-8", http: {equiv: {Content: Type}}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  
+app/views/layouts/application.html.haml:4
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:34:10 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (23.7ms)
+Completed 500 Internal Server Error in 42ms
+
+
+  
+ActionView::Template::Error (Unbalanced brackets.):
+    1: !!!
+    2: %html
+    3:   %head
+    4:     %meta{content: "text/html; charset=UTF-8", http: {equiv: Content-Type}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  
+app/views/layouts/application.html.haml:4
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:34:50 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (18.9ms)
+Completed 500 Internal Server Error in 36ms
+
+
+  
+ActionView::Template::Error (Unbalanced brackets.):
+    1: !!!
+    2: %html
+    3:   %head
+    4:     %meta{content: "text/html; charset=UTF-8", http: {equiv: "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  
+app/views/layouts/application.html.haml:4
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:35:51 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 30ms
+
+
+  
+SyntaxError (/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/application.html.haml:4: syntax error, unexpected tLABEL
+...=UTF-8", http: {equiv: Content: {Type}})).to_s);; _hamlout.b...
+...                               ^
+/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/application.html.haml:11: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/application.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/application.html.haml:14: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.haml:4: syntax error, unexpected tLABEL
+app/views/layouts/application.html.haml:11: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.haml:14: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:36:07 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.8ms)
+Completed 200 OK in 65ms (Views: 61.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:42:08 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (25.4ms)
+Completed 200 OK in 101ms (Views: 91.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:42:28 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 39ms
+
+
+  
+SyntaxError (/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting =>
+... charset=UTF-8", "http-equiv" : "Content-Type")).to_s);; _ha...
+...                               ^
+/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+...equiv" : "Content-Type")).to_s);; _hamlout.buffer << (">\n<t...
+...                               ^):
+  
+app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting =>
+app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:42:52 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 451ms (Views: 447.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:52:49 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (38.5ms)
+Completed 200 OK in 219ms (Views: 207.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:53:03 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 91ms (Views: 86.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:54:55 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 71ms (Views: 67.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:55:04 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (21.2ms)
+Completed 200 OK in 54ms (Views: 50.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:55:06 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 44ms (Views: 40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:55:23 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (13.3ms)
+Completed 200 OK in 54ms (Views: 43.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:57:11 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 52ms (Views: 42.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:57:12 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 39ms (Views: 34.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:57:19 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 46ms (Views: 41.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:57:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 45ms (Views: 40.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:58:57 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 61ms (Views: 57.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 21:01:05 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (25.6ms)
+Completed 200 OK in 65ms (Views: 61.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 21:03:03 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 55ms (Views: 50.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 21:03:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (13.4ms)
+Completed 200 OK in 52ms (Views: 47.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 21:26:34 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (116.3ms)
+Completed 200 OK in 185ms (Views: 173.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:05:55 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (222.9ms)
+Completed 200 OK in 526ms (Views: 473.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:06:51 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (142.3ms)
+Completed 200 OK in 1260ms (Views: 1240.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:06:54 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 46ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:12:23 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (51.8ms)
+Completed 200 OK in 565ms (Views: 554.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:12:26 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 50ms (Views: 43.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:12:26 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (28.9ms)
+Completed 200 OK in 65ms (Views: 58.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:15:18 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (14.1ms)
+Completed 200 OK in 420ms (Views: 416.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:15:29 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (14.3ms)
+Completed 200 OK in 45ms (Views: 41.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:20:23 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 416ms (Views: 410.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:42:22 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (67.3ms)
+Completed 200 OK in 663ms (Views: 649.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:42:31 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.3ms)
+Completed 200 OK in 404ms (Views: 398.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:44:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 385ms (Views: 379.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 20:44:10 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (21.5ms)
+Completed 200 OK in 55ms (Views: 51.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:09:22 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (51.5ms)
+Completed 200 OK in 596ms (Views: 586.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:09:38 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 376ms (Views: 370.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:12:48 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 409ms (Views: 405.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:14:21 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.1ms)
+Completed 200 OK in 371ms (Views: 368.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:14:32 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 394ms (Views: 389.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:15:13 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (19.8ms)
+Completed 200 OK in 61ms (Views: 57.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:16:47 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 375ms (Views: 370.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:17:03 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.8ms)
+Completed 200 OK in 387ms (Views: 383.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:17:56 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 370ms (Views: 365.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:19:06 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (13.6ms)
+Completed 200 OK in 357ms (Views: 354.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:19:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (14.8ms)
+Completed 200 OK in 49ms (Views: 43.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:20:03 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 408ms (Views: 399.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:21:01 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 385ms (Views: 381.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:41:43 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (51.9ms)
+Completed 500 Internal Server Error in 386ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358087270580'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:42:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 255ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358103464220'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:46:46 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (35.7ms)
+Completed 500 Internal Server Error in 325ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358095431940'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:47:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 187ms
+
+
+  
+ActionView::Template::Error ((black: #000000, whitesmoke: #F0F3F4, white: #FDFEFE, navy: #253141, lightblue: #38AEF0, gray: #999, lightgray: #B8C3C7) isn't a valid CSS value.):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/_messages.scss:14
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__1022393462430597747_70358098519220'
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:48:31 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 382ms (Views: 376.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 21:50:41 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 358ms (Views: 353.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 22:02:50 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (65.7ms)
+Completed 200 OK in 634ms (Views: 616.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-12 22:03:23 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 47ms (Views: 44.1ms)
+
+
