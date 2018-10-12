@@ -1,50 +1,49 @@
 //chat-sideのSCSS
 .chat-side {
   height: 100vh;
-  // width: 300px;
   width: 18%;
   float: left;
   
-  .chat-side__user {
+  &__user {
     height: 15%;
     width: 100%;
     background-color: black;
     position: relative;
 
-    .chat-side__user-content {
-      height: 50px;
-      width: 100%;
-      line-height: 50px;
-      margin: auto 0;
-      position: absolute;
-      top: 0;
-      bottom: 0;
+    &--new-group {
+      color: whitesmoke;
+      margin-left: 90px;
+      position: relative;
+      display: inline-block;
+    }
 
-      .chat-side__user-name {
+    &--edit-user {
+      color: whitesmoke;
+      position: relative;
+      display: inline-block;
+    }
+
+  .chat-side__user-content {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+      &--name {
         color: white;
         font-size: 20px;
         font-weight: bold;
         margin: 0 20px;
         position: relative;
         display: inline-block;
-      }
-
-      .chat-side__user--new-group {
-        color: whitesmoke;
-        margin-left: 90px;
-        position: relative;
-        display: inline-block;
-      }
-
-      .chat-side__user--edit-user {
-        color: whitesmoke;
-        position: relative;
-        display: inline-block;
-      }
+      }      
     }
   }
 
-  .chat-side__groups {
+  &__groups {
     height: 85%;
     width: 100%;
     background-color: #253141;
@@ -74,11 +73,11 @@
   width: 82%;
   float: left;
 
-  .chat-main__header {
+  &__header {
     height: 15%;
     border: 1px solid #eee;
 
-    .chat-main__header--group {
+    &--group {
       margin: 0 40px;
 
       .chat-main__header--group-name {
@@ -105,12 +104,12 @@
     }
   }
 
-  .chat-main__body {
+  &__body {
     height: calc( 100vh -15% -90px );
     overflow: scroll;
   }
 
-  .chat-main__footer {
+  &__footer {
     height: 90px;
     width: 83%;
     background-color: #B8C3C7;
