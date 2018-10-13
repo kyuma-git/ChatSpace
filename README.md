@@ -1,6 +1,9 @@
-###README
+# README
+ruby version:
+rails version:
+Database: mysql
 
-## membersテーブル
+# membersテーブル
 
 |Column|Type|Options|
 |------|----|-------|
