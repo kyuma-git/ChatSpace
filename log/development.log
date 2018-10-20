@@ -966,3 +966,983 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 49ms (Views: 35.6ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:33:15 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (59.6ms)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 7.3ms)
+
+
+  
+ActionView::Template::Error (Missing partial messages/_side_bar, application/_side_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/kyuma/CodeFile/projects/ChatSpace/app/views"
+  * "/Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
+):
+    1: = render partial: 'side_bar'
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109466581500'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:35:04 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (19.1ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_side_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/kyuma/CodeFile/projects/ChatSpace/app/views"
+  * "/Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
+):
+    1: = render partial: 'shared/side_bar'
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109435224820'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:38:08 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (18.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (42.9ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 18.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_side_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/kyuma/CodeFile/projects/ChatSpace/app/views"
+  * "/Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
+):
+    1: = render partial: "shared/side_bar"
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109482846720'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:45:33 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (482.8ms)
+Completed 500 Internal Server Error in 520ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `side_bar_tag' for #<#<Class:0x007f8740f9a898>:0x007f8747980ff0>):
+    1: = side_bar_tag
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109499231420'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:47:09 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_side_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/kyuma/CodeFile/projects/ChatSpace/app/views"
+  * "/Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
+):
+    1: = render "shared/side_bar"
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109420297700'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:48:52 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_side_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/kyuma/CodeFile/projects/ChatSpace/app/views"
+  * "/Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
+):
+    1: = render :partial => "shared/side_bar"
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109482342900'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:50:06 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (7.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 7.2ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_side_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/Users/kyuma/CodeFile/projects/ChatSpace/app/views"
+  * "/Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
+):
+    1: = render "shared/side_bar"
+    2: .chat-main
+    3:   .chat-main__header
+    4:     .chat-main__header--group.clearfix
+  
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109481889560'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:51:05 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (8.8ms)
+  Rendered messages/index.html.haml within layouts/application (33.0ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 1.5ms)
+
+
+  
+SyntaxError (/Users/kyuma/CodeFile/projects/ChatSpace/app/views/devise/shared/_side_bar.html.haml:5: unknown type of %string
+::Haml::Helpers.html_escape((( %current_user.name
+                                  ^
+/Users/kyuma/CodeFile/projects/ChatSpace/app/views/devise/shared/_side_bar.html.haml:5: syntax error, unexpected end-of-input
+::Haml::Helpers.html_escape((( %current_user.name
+                                  ^):
+  
+app/views/devise/shared/_side_bar.html.haml:5: unknown type of %string
+app/views/devise/shared/_side_bar.html.haml:5: syntax error, unexpected end-of-input
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109498755120'
+Started GET "/" for 127.0.0.1 at 2018-10-13 20:51:40 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (26.4ms)
+  Rendered messages/index.html.haml within layouts/application (42.9ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x007f873ebe55b0>):
+    2:   .chat-side__user
+    3:     .chat-side__user-content
+    4:       .chat-side__user-content--name
+    5:         = current_user.name
+    6:       .chat-side__user--new-group
+    7:         = link_to do
+    8:           = fa_icon 'pencil-square-o'
+  
+app/views/devise/shared/_side_bar.html.haml:5:in `_app_views_devise_shared__side_bar_html_haml__4476241964831056610_70109421745440'
+app/views/messages/index.html.haml:1:in `_app_views_messages_index_html_haml___2792933073359231774_70109424969940'
+  [1m[35m (31.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (11.5ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddColumnNames (20181013115357)
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[35m (6.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddNamesToUsers (20181013115813)
+  [1m[35m (153.1ms)[0m  [1m[35mALTER TABLE `users` ADD `name` varchar(255)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (10.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181013115813')[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:00:55 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (12.8ms)
+  Rendered messages/index.html.haml within layouts/application (44.2ms)
+Completed 200 OK in 214ms (Views: 104.2ms | ActiveRecord: 40.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:03:21 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (15.8ms)
+  Rendered messages/index.html.haml within layouts/application (51.9ms)
+Completed 200 OK in 840ms (Views: 824.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:06:19 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (25.7ms)
+  Rendered messages/index.html.haml within layouts/application (65.0ms)
+Completed 200 OK in 485ms (Views: 468.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:07:42 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (5.2ms)
+  Rendered messages/index.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 466ms (Views: 456.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 00:08:33 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (5.4ms)
+  Rendered messages/index.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 428ms (Views: 422.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-14 22:08:29 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (61.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (97.6ms)
+  Rendered messages/index.html.haml within layouts/application (354.1ms)
+Completed 200 OK in 934ms (Views: 691.0ms | ActiveRecord: 61.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-10-15 22:29:52 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (54.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 114ms (ActiveRecord: 54.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:30:58 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (79.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (191.7ms)
+  Rendered messages/index.html.haml within layouts/application (751.2ms)
+Completed 200 OK in 2006ms (Views: 1505.8ms | ActiveRecord: 79.2ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 20:36:43 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (347.9ms)
+Completed 200 OK in 742ms (Views: 658.8ms | ActiveRecord: 6.9ms)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2018-10-19 20:36:54 +0900
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FR/Fc/VCiekimvbEGg6i7dDeG9248PY2bUwpdejgeSvk+0Wp0SKTzvPDPPRwPq+q+7zWyaXLR0ARaGzbyHt4mw==", "user"=>{"name"=>"MoritaKyuma", "email"=>"hokumon2@icloud.com"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mUser Load (21.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (19.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (47.0ms)[0m  [1m[33mUPDATE `users` SET `name` = 'MoritaKyuma', `updated_at` = '2018-10-19 11:36:55' WHERE `users`.`id` = 1[0m
+  [1m[35m (42.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 465ms (ActiveRecord: 130.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:36:55 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (29.6ms)
+  Rendered messages/index.html.haml within layouts/application (187.7ms)
+Completed 200 OK in 364ms (Views: 341.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 20:37:00 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (87.3ms)
+Completed 200 OK in 387ms (Views: 368.7ms | ActiveRecord: 1.8ms)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2018-10-19 20:37:09 +0900
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RpNJ6WWKK5mFNn0ry0kXOrnU9TjPCv5gvgkZyuR8qyy3d8kzQeoxvlRvtxuheRp9krY4LNIxTxbCLVxkxOeqnA==", "user"=>{"name"=>"Kyuma", "email"=>"hokumon2@icloud.com"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (23.7ms)[0m  [1m[33mUPDATE `users` SET `name` = 'Kyuma', `updated_at` = '2018-10-19 11:37:09' WHERE `users`.`id` = 1[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 65ms (ActiveRecord: 36.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:37:09 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (61.1ms)
+  Rendered messages/index.html.haml within layouts/application (356.4ms)
+Completed 200 OK in 512ms (Views: 495.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:40:45 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (61.9ms)
+  Rendered messages/index.html.haml within layouts/application (206.8ms)
+Completed 200 OK in 439ms (Views: 420.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:40:48 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (31.6ms)
+  Rendered messages/index.html.haml within layouts/application (105.4ms)
+Completed 200 OK in 279ms (Views: 253.7ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 20:40:49 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (49.9ms)
+Completed 200 OK in 193ms (Views: 181.1ms | ActiveRecord: 3.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 20:40:54 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ayMPWwCwtLtOexnQr1Gl8Z6NoOtB/k5peJI+95+B5NSax4+BJNCunJ8i0+DFYai2te9t/1zF/x8EtntZvxrlZA=="}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 83ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:40:54 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 20:40:54 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (26.5ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (77.9ms)
+Completed 200 OK in 217ms (Views: 182.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 20:40:58 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N8M20tImOMRTtvIukl+2QXiZ+zA6odhuZjT3A6W+FDIQuwN2n4pEe2enjVH81wc9hN/9XyIetyBoY8xOcUng8Q==", "user"=>{"email"=>"hokumon2@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (31.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 65ms (ActiveRecord: 31.7ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N8M20tImOMRTtvIukl+2QXiZ+zA6odhuZjT3A6W+FDIQuwN2n4pEe2enjVH81wc9hN/9XyIetyBoY8xOcUng8Q==", "user"=>{"email"=>"hokumon2@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (23.5ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (48.0ms)
+Completed 200 OK in 303ms (Views: 178.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 20:41:01 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hWPUdgJ2qgAyOwDCGcuMHue5DECNURjJZ4VUhtWWbw6iG+HST9rWvwYqf713Qz1iG/8KL5Xud4dp0m/LAWGbzQ==", "user"=>{"email"=>"hokumon2@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.3ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hWPUdgJ2qgAyOwDCGcuMHue5DECNURjJZ4VUhtWWbw6iG+HST9rWvwYqf713Qz1iG/8KL5Xud4dp0m/LAWGbzQ==", "user"=>{"email"=>"hokumon2@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (13.3ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (37.2ms)
+Completed 200 OK in 311ms (Views: 186.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 20:41:55 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7pTo2FIMKxeEJqXqQMdgQ5Njf+ZNIgmPqB7Y2z52QGPJ7N18H6BXqLA32pUuT9E/byV5iVWdZsGmSeOW6oG0oA==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (6.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.4ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = '2018-10-19 11:41:55', `updated_at` = '2018-10-19 11:41:55' WHERE `users`.`id` = 1[0m
+  [1m[35m (12.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 215ms (ActiveRecord: 27.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 20:41:55 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (31.6ms)
+  Rendered messages/index.html.haml within layouts/application (78.0ms)
+Completed 200 OK in 516ms (Views: 502.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:35:06 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (47.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (42.9ms)
+  Rendered messages/index.html.haml within layouts/application (217.3ms)
+Completed 500 Internal Server Error in 830ms (ActiveRecord: 47.6ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: /flash.
+Load paths:
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/config
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/images
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/fonts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/stylesheets
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/kyuma/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kyuma/CodeFile/projects/ChatSpace/node_modules):
+    4:     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title ChatSpace
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = render 'layouts/flash'
+  
+app/assets/stylesheets/application.scss:5
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3211815421019284387_70109467323980'
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:35:37 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (18.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (11.6ms)
+  Rendered messages/index.html.haml within layouts/application (41.8ms)
+  Rendered layouts/_flash.html.haml (1.8ms)
+Completed 500 Internal Server Error in 1051ms (ActiveRecord: 18.5ms)
+
+
+  
+SyntaxError (/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/_flash.html.haml:1: syntax error, unexpected ',', expecting keyword_end
+...OutputBuffer); flash.each |key, value|
+...                               ^
+/Users/kyuma/CodeFile/projects/ChatSpace/app/views/layouts/_flash.html.haml:4: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/layouts/_flash.html.haml:1: syntax error, unexpected ',', expecting keyword_end
+app/views/layouts/_flash.html.haml:4: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml___3211815421019284387_70109480005120'
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:37:21 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (12.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (4.3ms)
+  Rendered messages/index.html.haml within layouts/application (16.7ms)
+  Rendered layouts/_flash.html.haml (3.1ms)
+Completed 200 OK in 67ms (Views: 49.6ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:43:47 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (17.0ms)
+  Rendered messages/index.html.haml within layouts/application (76.7ms)
+  Rendered layouts/_flash.html.haml (12.9ms)
+Completed 200 OK in 273ms (Views: 205.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 21:43:55 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (21.9ms)
+  Rendered layouts/_flash.html.haml (4.2ms)
+Completed 200 OK in 138ms (Views: 113.9ms | ActiveRecord: 2.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 21:44:00 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EYr/xvpqDbCGuIgUj47OUplu3ZW8CUD9xTpGZwYNsUbPsq/oC0dWYVUELiwQvKm/XvfltVN7SV209t1c5BR1lQ=="}
+  [1m[36mUser Load (7.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (27.6ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2018-10-19 12:44:00' WHERE `users`.`id` = 1[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 71ms (ActiveRecord: 37.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:44:00 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:44:00 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (3.7ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (108.4ms)
+  Rendered layouts/_flash.html.haml (2.4ms)
+Completed 200 OK in 159ms (Views: 156.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:44:19 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lYHECttY7jzmTPkicNMkT50FaNAwKSQV2H+Aa8zFqW10lauBZj+iWNrq9JNCTo3tTYiSpo5kcZZCU3yL9efCMQ==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 131ms (ActiveRecord: 0.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lYHECttY7jzmTPkicNMkT50FaNAwKSQV2H+Aa8zFqW10lauBZj+iWNrq9JNCTo3tTYiSpo5kcZZCU3yL9efCMQ==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.8ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (16.3ms)
+  Rendered layouts/_flash.html.haml (2.2ms)
+Completed 200 OK in 179ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:44:26 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/t4dn6x/LpKscn582Y7jX70QwaEbe3G1qf0iAg6pVxwfynIUERhi9pDUc83rE0r9bZ0716U2JDYz0d7iN4s8QA==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (8.3ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = '2018-10-19 12:44:26', `updated_at` = '2018-10-19 12:44:26' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 189ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:44:26 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (12.0ms)
+  Rendered messages/index.html.haml within layouts/application (42.3ms)
+  Rendered layouts/_flash.html.haml (2.9ms)
+Completed 200 OK in 89ms (Views: 83.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:46:25 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (23.1ms)
+  Rendered messages/index.html.haml within layouts/application (39.6ms)
+  Rendered layouts/_flash.html.haml (4.6ms)
+Completed 200 OK in 104ms (Views: 91.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 21:46:29 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (31.7ms)
+  Rendered layouts/_flash.html.haml (3.7ms)
+Completed 200 OK in 104ms (Views: 95.3ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 21:46:31 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Z1pzkRY2MSKzapzW4tkeQNN4O7x9e3QWB3YoaARlUh6owyLDUEexhseUY1uSucXV4InAabNDGfwUV0TipfNTig=="}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (23.6ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2018-10-19 12:46:31' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 62ms (ActiveRecord: 25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:46:31 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:46:31 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (5.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (25.8ms)
+  Rendered layouts/_flash.html.haml (4.3ms)
+Completed 200 OK in 118ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:46:34 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6F13YBmgrxpZDm8fP7hu+LcaIDFSUJ9PCbFqw5ycrc7tKwodJOL5EFT5sK4kuML3Qjue75auB6Lec53wx7/wTw==", "user"=>{"email"=>"hokumon2@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (7.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 11ms (ActiveRecord: 7.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6F13YBmgrxpZDm8fP7hu+LcaIDFSUJ9PCbFqw5ycrc7tKwodJOL5EFT5sK4kuML3Qjue75auB6Lec53wx7/wTw==", "user"=>{"email"=>"hokumon2@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (11.6ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (27.2ms)
+  Rendered layouts/_flash.html.haml (2.4ms)
+Completed 200 OK in 206ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:46:51 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cbnpCETCC0mm5ry1LW0jmrelQ1zBaBPxGqcXoKEmo5J0z5R1eYBdQ6sRYwQ2bY+VQoT9ggWWixzNZeCT+gX+Ew==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = '2018-10-19 12:46:51', `updated_at` = '2018-10-19 12:46:51' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 151ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:46:51 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (8.7ms)
+  Rendered messages/index.html.haml within layouts/application (26.3ms)
+  Rendered layouts/_flash.html.haml (2.4ms)
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:48:42 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (7.8ms)
+  Rendered messages/index.html.haml within layouts/application (24.5ms)
+  Rendered layouts/_flash.html.haml (1.8ms)
+Completed 200 OK in 73ms (Views: 65.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:53:56 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (9.1ms)
+  Rendered messages/index.html.haml within layouts/application (30.3ms)
+  Rendered layouts/_flash.html.haml (3.4ms)
+Completed 200 OK in 208ms (Views: 81.0ms | ActiveRecord: 76.8ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 21:58:01 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (14.2ms)
+  Rendered layouts/_flash.html.haml (23.8ms)
+Completed 500 Internal Server Error in 150ms (ActiveRecord: 44.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `sign_in_count' for #<User:0x007f873fa89008>):
+    1: - flash.each do |key, value|
+    2:     = content_tag(:div, value, class: "flash flash__#{key}")
+  
+app/controllers/users_controller.rb:14:in `flash'
+app/views/layouts/_flash.html.haml:1:in `_app_views_layouts__flash_html_haml___1480329765599954671_70109440530660'
+app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml___3211815421019284387_70109432618180'
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 21:58:08 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (14.5ms)
+  Rendered layouts/_flash.html.haml (14.6ms)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `sign_in_count' for #<User:0x007f8745828330>):
+    1: - flash.each do |key, value|
+    2:     = content_tag(:div, value, class: "flash flash__#{key}")
+  
+app/controllers/users_controller.rb:14:in `flash'
+app/views/layouts/_flash.html.haml:1:in `_app_views_layouts__flash_html_haml___1480329765599954671_70109467408720'
+app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml___3211815421019284387_70109477691080'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 21:58:11 +0900
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:58:15 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (8.3ms)
+  Rendered messages/index.html.haml within layouts/application (28.7ms)
+  Rendered layouts/_flash.html.haml (2.0ms)
+Completed 200 OK in 79ms (Views: 73.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 21:58:21 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (16.0ms)
+  Rendered layouts/_flash.html.haml (16.4ms)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `sign_in_count' for #<User:0x007f8746921c68>):
+    1: - flash.each do |key, value|
+    2:     = content_tag(:div, value, class: "flash flash__#{key}")
+  
+app/controllers/users_controller.rb:14:in `flash'
+app/views/layouts/_flash.html.haml:1:in `_app_views_layouts__flash_html_haml___1480329765599954671_70109499261740'
+app/views/layouts/application.html.haml:10:in `_app_views_layouts_application_html_haml___3211815421019284387_70109490303240'
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 22:09:09 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (13.6ms)
+  Rendered layouts/_flash.html.haml (1.9ms)
+Completed 200 OK in 184ms (Views: 124.6ms | ActiveRecord: 30.7ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 22:09:14 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"82Fp3+Tl4l2DTXX2WenCUOmp8DM9v/j+k2SN47wA+H75DTE/LAgokYaAcwNf3eyl7VZv38gqdlAMngdgNKdPwQ=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (22.2ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2018-10-19 13:09:14' WHERE `users`.`id` = 1[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 37ms (ActiveRecord: 25.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:09:14 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:09:14 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (3.8ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (13.5ms)
+  Rendered layouts/_flash.html.haml (1.5ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:09:33 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PLZZ+Q+jv/s6Wcct01ZeG4nG4BjMa3ik8IuAxivE04HNqr0SrVw6Axz1s1QcWKZCGxsReTXro217fq2O3FM1OA==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.9ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = '2018-10-19 13:09:33', `updated_at` = '2018-10-19 13:09:33' WHERE `users`.`id` = 1[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 154ms (ActiveRecord: 14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:09:33 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (5.6ms)
+  Rendered messages/index.html.haml within layouts/application (18.7ms)
+  Rendered layouts/_flash.html.haml (3.1ms)
+Completed 200 OK in 54ms (Views: 49.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:12:58 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (5.5ms)
+  Rendered messages/index.html.haml within layouts/application (17.2ms)
+  Rendered layouts/_flash.html.haml (2.7ms)
+Completed 200 OK in 116ms (Views: 69.2ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 22:13:00 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (11.8ms)
+  Rendered layouts/_flash.html.haml (1.7ms)
+Completed 200 OK in 68ms (Views: 47.9ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 22:13:02 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WGye8N2gJ6/N+AVYQA3wFvGJO3if5Hrk67ynhHsdt/oOPgh7QrYH8zSk6O6kUbk/8jyt7C9ttqU1jnvSAOkj6g=="}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2018-10-19 13:13:02' WHERE `users`.`id` = 1[0m
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 23ms (ActiveRecord: 14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:13:02 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:13:02 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.7ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (10.9ms)
+  Rendered layouts/_flash.html.haml (2.3ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:13:21 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6E7JGnTxLmjNe/d4FhOJui8x6DqTgwxGhJc0qj+SsI2kolIXXC8MnsLs6DR5WMkU0FVoIu7jHlH3/Jrs1Olj7g==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.6ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = '2018-10-19 13:13:21', `updated_at` = '2018-10-19 13:13:21' WHERE `users`.`id` = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 154ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:13:21 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (7.8ms)
+  Rendered messages/index.html.haml within layouts/application (20.0ms)
+  Rendered layouts/_flash.html.haml (4.2ms)
+Completed 200 OK in 64ms (Views: 58.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:25:11 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (12.2ms)
+  Rendered messages/index.html.haml within layouts/application (44.3ms)
+  Rendered layouts/_flash.html.haml (3.6ms)
+Completed 200 OK in 172ms (Views: 101.0ms | ActiveRecord: 30.6ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 22:25:13 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (62.0ms)
+  Rendered layouts/_flash.html.haml (2.5ms)
+Completed 200 OK in 152ms (Views: 118.4ms | ActiveRecord: 4.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 22:25:16 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BplRhVr/VtGM96yzXktzrOTMXFxoK8JpuxHSHsIGhhBRdRxKwFcIFeXNFMFAAgykYc8+g1DFMWjJwE0SLQz60A=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (12.1ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2018-10-19 13:25:16' WHERE `users`.`id` = 1[0m
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 32ms (ActiveRecord: 20.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:25:16 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:25:16 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (8.7ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (24.3ms)
+  Rendered layouts/_flash.html.haml (2.0ms)
+Completed 200 OK in 84ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:25:32 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQWrERuFUNJlrt/tQTbSgi797xNP3c7cbKcY4Tt3o0TgcYBPGM8j3dcdovnmvj04P/bsJPyShdpvf47KPChmPw==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.8ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = '2018-10-19 13:25:32', `updated_at` = '2018-10-19 13:25:32' WHERE `users`.`id` = 1[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 165ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:25:32 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (10.9ms)
+  Rendered messages/index.html.haml within layouts/application (27.8ms)
+  Rendered layouts/_flash.html.haml (3.1ms)
+Completed 200 OK in 81ms (Views: 73.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2018-10-19 22:27:08 +0900
+  [1m[35m (32.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/edit.html.haml within layouts/application (34.8ms)
+  Rendered layouts/_flash.html.haml (1.9ms)
+Completed 200 OK in 369ms (Views: 316.2ms | ActiveRecord: 25.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-10-19 22:27:10 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MDsRy5+D/3nzbbN+CCY7wNMjdpKMWOOcMWLMsBOjwWke60zCiKhW4yYiErAK5ukDAw50RHcjnYIX1gt4VtvBww=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (17.3ms)[0m  [1m[33mUPDATE `users` SET `remember_created_at` = NULL, `updated_at` = '2018-10-19 13:27:10' WHERE `users`.`id` = 1[0m
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 38ms (ActiveRecord: 24.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:27:10 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:27:10 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.7ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (14.8ms)
+  Rendered layouts/_flash.html.haml (2.2ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-10-19 22:27:28 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S1eIeJd7V85VHQVOXaU9hEn8fS46tXOtIvV5k/K2a1KDtZTEwKvqmcPEXvHmaLUBh7BbV6Fz1VBVk1Hdb7amlw==", "user"=>{"email"=>"hokumon2@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'hokumon2@icloud.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 170ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 22:27:28 +0900
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (4.5ms)
+  Rendered messages/index.html.haml within layouts/application (16.5ms)
+  Rendered layouts/_flash.html.haml (2.3ms)
+Completed 200 OK in 52ms (Views: 47.1ms | ActiveRecord: 0.3ms)
+
+

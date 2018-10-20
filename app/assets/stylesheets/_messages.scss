@@ -11,26 +11,28 @@
     position: relative;
 
     &--new-group {
-      color: $whitesmoke;
       margin-left: 90px;
       position: relative;
       display: inline-block;
     }
 
     &--edit-user {
-      color: $whitesmoke;
       position: relative;
       display: inline-block;
     }
 
-  .chat-side__user-content {
-    height: 50px;
-    width: 100%;
-    line-height: 50px;
-    margin: auto 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    .fa {
+      color: $whitesmoke;
+    }
+
+    .chat-side__user-content {
+      height: 50px;
+      width: 100%;
+      line-height: 50px;
+      margin: auto 0;
+      position: absolute;
+      top: 0;
+      bottom: 0;
 
       &--name {
         color: $white;
