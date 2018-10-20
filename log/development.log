@@ -1982,3 +1982,14 @@ FOREIGN KEY (`user_id`)
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (5.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-10-20 12:44:28 +0900
+  [1m[35m (6.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (23.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering messages/index.html.haml within layouts/application
+  Rendered devise/shared/_side_bar.html.haml (7.9ms)
+  Rendered messages/index.html.haml within layouts/application (44.5ms)
+  Rendered layouts/_flash.html.haml (4.7ms)
+Completed 200 OK in 236ms (Views: 142.4ms | ActiveRecord: 53.2ms)
+
+
