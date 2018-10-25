@@ -52,18 +52,21 @@
     
     .chat-side__groups-list {
       height: 100%;
-      
-      .chat-side__group {
-        padding: 20px;
-        color: $white;
 
-        .chat-side__group-name {
-          font-size: 15px;
-          
-        }
-        .chat-side__group-message {
-          font-size: 11px;
-        }
+      .chat-side__group-name {
+        font-size: 15px;
+        color: $white;
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      .chat-side__group-message {
+        font-size: 11px;
+        color: $white;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        margin-bottom: 10px;
       }
     }
   }
