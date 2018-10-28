@@ -1,21 +1,44 @@
 = render "layouts/side_bar"
+-# .chat-main
+-#   .chat-main__header
+-#     .chat-main__header--group.clearfix
+-#       .chat-main__header--group-name
+-#         Programmers
+-#       %a.chat-main__header--group-edit-btn(href="")
+-#         edit
+-#     .chat-main__header-members
+-#       MEMBER:
+-#       %i Kyuma
+-#   .chat-main__body
+-#   .chat-main__footer#footer
+-#     %form.chat-main__foter-form#new_message(enctype="multipart/form-data" action="/groups/1438/messages" accept-charset="UTF-8" method="post")
+-#       %input(name="utf8" type="hidden" value="✔︎")/
+-#       %input(type="hidden" name="authenticity_token" value="TvmYGUk4icKinpFuSYRrzsZDIO5TmG8O2KRdCwLBxcSCOIp6IhowvuNlG2ZT4rEvQkFqd+t0PjrVjxLEIH7C2Q==")/
+-#       .chat-main__footer-body
+-#         %input.message#message_body(placeholder="type a message" type="text" name="message[body]")/
+-#         %label.chat-file(for="massage_body")
+-#           %input.image(type="file")/
+-#       %input.submit(type="submit" name="commit" value="Send" data-basable-with="Send") 
+
 .chat-main
   .chat-main__header
     .chat-main__header--group.clearfix
       .chat-main__header--group-name
-        Programmers
+        = current_user.groups 
       %a.chat-main__header--group-edit-btn(href="")
         edit
     .chat-main__header-members
       MEMBER:
-      %i Kyuma
+      = current_user.group_users.ids
   .chat-main__body
-  .chat-main__footer#footer
-    %form.chat-main__foter-form#new_message(enctype="multipart/form-data" action="/groups/1438/messages" accept-charset="UTF-8" method="post")
-      %input(name="utf8" type="hidden" value="✔︎")/
-      %input(type="hidden" name="authenticity_token" value="TvmYGUk4icKinpFuSYRrzsZDIO5TmG8O2KRdCwLBxcSCOIp6IhowvuNlG2ZT4rEvQkFqd+t0PjrVjxLEIH7C2Q==")/
+
+  .chat-main__footer
+    .form.chat-main__foter-form
       .chat-main__footer-body
-        %input.message#message_body(placeholder="type a message" type="text" name="message[body]")/
-        %label.chat-file(for="massage_body")
-          %input.image(type="file")/
-      %input.submit(type="submit" name="commit" value="Send" data-basable-with="Send") 
+        = form_for [@group, @message] do |f|
+          = f.text_field :content, class: 'message', placeholder: 'メッセージを入力してね'
+          = f.label :image, class: 'chat-file' do
+            = fa_icon 'picture-o', class: 'icon'
+            = f.file_field :image, class: 'image'
+          = f.submit 'Send', class: 'form_submit'
+      
